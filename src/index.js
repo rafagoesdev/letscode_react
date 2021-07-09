@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 // import './index.css';
 import App from './components/App';
 import App2 from './components/App2';
+import App3 from './components/App3';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <App3></App3>
     <App2 title="Titulo">
       Conteúdo
     </App2>
