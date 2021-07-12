@@ -7,6 +7,7 @@ import App3 from './components/App3';
 import App4 from './components/App4';
 import App5 from './components/App5';
 import App6 from './components/App6';
+import App7 from './components/App7';
 import Formulario from './components/Formulario';
 import Titulo from './components/Hello';
 import {Lista, Item} from './components/Lista';
@@ -14,6 +15,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <App7></App7>
     <App6></App6>
     <Titulo text="Hello"></Titulo>
     <Formulario></Formulario>
