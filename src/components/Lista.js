@@ -19,7 +19,8 @@ class Lista extends React.Component{
     return (
       <>
       <ul>
-        {this.state.items.map((item) => (
+      {React.Children.map(this.props.children, child => child.type == Item ? child : null)}
+          {this.state.items.map((item) => (
           <Item key={item.id} id={item.id} completo={item.completo}>
             {item.nome}
           </Item>
@@ -48,4 +49,4 @@ class Item extends React.Component{
 }
 
 
-export default Lista;
+export {Lista, Item};
