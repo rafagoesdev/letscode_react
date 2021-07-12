@@ -7,11 +7,13 @@ import App3 from './components/App3';
 import App4 from './components/App4';
 import App5 from './components/App5';
 import Formulario from './components/Formulario';
+import Titulo from './components/Hello';
 import {Lista, Item} from './components/Lista';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Titulo text="Hello"></Titulo>
     <Formulario></Formulario>
     <Lista>
     <Item key={999} id={999} completo={true}>teste</Item>
